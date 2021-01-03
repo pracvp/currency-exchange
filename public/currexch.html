@@ -31,15 +31,18 @@
 
   <p class="section-subheading">
     <form id="query-form">
-      <div>
+      <div class="curr">
         <label for="Currency"> source currency :</label><input class="textfield" id="source" type="text" name="source" placeholder="e.g. USD"  />
       </div>
-      <div>
+      <div class="contain">
         <label for="contains">available currencies (commas seperated):</label><input class="textfield" id="curr" type="text" name="contains" placeholder="e.g. USD,INR,GDB"  /></div>
       <div class="button">
         <br />
-        <input class="button" type="button" value="Reset" id="resetButton" onClick="this.form.reset();resetResults()" />
-        <input class="button" type="submit" value="Search ..." id="searchButton" />
+        <br />
+        <div class="bttn">
+        <input class = "btn btn-info pull-left" type="button" value="Reset" id="resetButton" onClick="this.form.reset();resetResults()" />
+        <input class = "btn btn-info pull-right"  type="submit" value="Search" id="searchButton" />
+      </div>
       </div>
     </form>
   </p>
@@ -49,15 +52,7 @@
 
 </body>
 
-<footer>
-  <div class="section-divider"><img src="images/infinity-line.png"></div>
 
-  <br />
- 
-
-
-
-</footer>
 
 <!-- JQuery Scripts -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
