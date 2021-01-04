@@ -13,6 +13,16 @@
     "jquery": "^3.5.1",
     "unirest": "^0.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pracvp/currency-exchange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pracvp/currency-exchange/issues"
+  },
+  "homepage": "https://github.com/pracvp/currency-exchange#readme",
   "description": ""
 }
