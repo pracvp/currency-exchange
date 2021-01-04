@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const path = require("path");
 
-app.use(express.static(__dirname + '/public'));
+app.use(Express.static(path.join(__dirname, '../public')));
 
-  
-    app.get("*", (req, res) => {
-      res.sendFile(path.resolve(__dirname, "public", "home.html"));
-    }); 
+app.get('*', function (request, response){
+  response.sendFile(path.resolve(__dirname, '../public', 'index.html'));
+});
+
 
 
 
